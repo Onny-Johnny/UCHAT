@@ -1,0 +1,153 @@
+
+/********************* Colour reference chart****************
+*************************** comment ********* colour ******** 
+
+box background colour       bbg              #1b92d1
+box background light col    bbg              #37afe2
+box filldes colour          bfc              #ecf5fb
+box border colour           bb               #dfd8cb
+box text colour             bt               #101010
+
+*/
+
+window {
+    background-color: #ecf5fb;
+}
+
+label {
+    color: #101010;
+}
+
+box {
+    background-color: #fadc49;
+}
+
+box label {
+    color: #222222;
+}
+
+grid {
+    background-color: white;
+}
+
+list grid {
+    background-color: transparent;
+}
+
+list grid grid {
+    background-color: #e1e1e1;
+    border-radius: 15px;
+}
+
+list grid grid label {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+list grid grid image {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+
+#user_name_label {
+    color: #085060;
+    font-size: 10px;
+    padding-top: 4px;
+}
+
+list {
+    background-color: white;
+}
+
+list label {
+    color: #101010;
+}
+
+list image {
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+label {
+    font: 16px Sans Bold;
+}
+
+switch {
+    border-radius: 27px;
+    background-image: linear-gradient(#ffffff, #ffffff);
+    border-color: #e6e9ef;
+    border-width: 2px;
+}
+
+switch:focus {
+    border-top-width: 3px;
+    border-left-width: 3px;
+    border-right-width: 3px;
+    border-bottom-width: 3px;
+}
+
+switch slider {
+    border-radius: 27px;
+    border-color: #e6e9ef;
+    border-width: 2px;
+}
+
+switch:checked {
+    border-color: #e1e1e1;
+    border-width: 2px;
+}
+
+switch:checked slider {
+    border-color: #e1e1e1;
+    border-width: 3px;
+}
+
+entry {
+    /* border-color: #4995be; */
+    background-color: #fadc49;
+    border-width: 0px;
+    border-radius: 15px;
+}
+
+textview.view {
+    border-color: #ffffff;
+    border-width: 3px;
+}
+
+textview text {
+    background-color: #dfd8cb;
+    color: #101010;
+}
+
+#list_lines_count label {
+    font-size: 8px;
+}
+
+button {
+    border-radius: 15px;
+    background-image: linear-gradient(#fadc49, #fadc49);
+}
+
+button:active {
+    background-image: linear-gradient(#dfd8cb, #dfd8cb);
+}
+
+button:focus {
+    border-color: #dfd8cb;
+    border-width: 4px;
+}
+
+button label {
+    color: #222222;
+}
+
+button:active label {
+    color: #1b92d1;
+    border-radius: 15px;
+}
